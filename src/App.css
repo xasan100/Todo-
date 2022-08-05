@@ -1,0 +1,34 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+transition:  all 0.3 linear; 
+}
+
+body {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    margin: 0 auto;
+}
+
+
+th{
+    text-align: center;
+    width: auto;
+    height: 45px;
+    padding: 0px 10px;
+}
+
+td{
+    padding: 15px;
+    height: 45px;
+    text-align: center;
+}
+#bor{
+    border-bottom: 1px solid rgb(235, 234, 234);
+}
