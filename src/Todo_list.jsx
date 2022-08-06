@@ -75,7 +75,7 @@ export default class Todo_list extends Component {
                                 <td>Devloper</td>
                                 <button onClick={() => onEdit()}>Edit</button>
                             </tr>
-                        {/* </tbody> */}
+                        </tbody>
                     </table>
                 </Conhero>
             </Container1>

@@ -1,7 +1,7 @@
 
 
 export const data = [
-    { id: 1, name: 'Rakhimjonov Davronbek' },
+    { id: 1, name:  'Rakhimjonov Davronbek' },
     { id: 2, name: 'Komil Muhammadiyev' },
     { id: 3, name: 'Mahkamov Tohirbek' },
     { id: 4, name: 'Nuraliev Zuhriddin' },

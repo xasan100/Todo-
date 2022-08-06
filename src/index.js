@@ -1,18 +1,15 @@
 /** @format */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.css';
-import Todo from './Todo';
-import Todo_list from './Todo_list.jsx';
-// import Root from './compon/root';
+import Table from './Table.jsx';
+import Toof from './Too.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
 <div>
-			{/* <App /> */}
-			{/* <div className=' Container'>	<Todo /></div> */}
-<Todo_list/>
+			{/* <Table/> */}
+			<Toof/>
 </div>
 	</React.StrictMode>
 );

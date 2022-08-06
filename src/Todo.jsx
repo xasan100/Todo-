@@ -35,7 +35,7 @@ export default class Todo extends Component {
             let res = this.state.data.map((value => value.id === this.state.selected?.id ? { ...value, name: InputRef.current.value } : value))
             this.setState({ data: res, selected: null })
         }
-        const onCansel = (value) => {
+        const onCansel = ({value}) => {
             this.setState({ selected: null })
         }
         const onDelete = (id) => {
@@ -52,12 +52,17 @@ export default class Todo extends Component {
                     <select name="name" id="" onChange={(e) => this.setState({ select: e.target.value })} >
                         <option value="id">Id</option>
                         <option value="name">Name</option>
-
                     </select>
+
                    </ConInput>
                     {this.state.data.map((value) => {
-                        return (<table>
+                        return (<table> 
                             {value.id}
+                            {value.Address}
+                            {value.Status}
+                            {value.Nickname}
+                            {value.Univ}
+                            {value.Job}
                             {this.state.selected?.id === value.id ?
                                 <input
                                     defaultValue={this.state.selected.name} type="text" name='' id='' />
